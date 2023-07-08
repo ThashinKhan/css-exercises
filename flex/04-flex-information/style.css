@@ -8,19 +8,22 @@ img {
 }
 
 .title {
+  width: fit-content;
   font-size: 36px;
   font-weight: 900;
+  margin: 32px auto;
 }
 
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
+.container{
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: #eee;
+  gap: 52px;
+}
+
+.text{
+  width: 200px;
+}
+
+.image_text{
+  text-align: center;
 }
